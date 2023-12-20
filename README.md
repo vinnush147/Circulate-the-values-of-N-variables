@@ -20,6 +20,7 @@ using concatenation operation display the entire rotated list
 ### Step 6: 
 stop the program
 ## Program:
+```python
 #Program to circulate N values.
 #Developed by: VINNUSH KUMAR L S 
 #RegisterNumber: 23012349
@@ -28,7 +29,7 @@ def circulate():
     n=int(input())
     lst2=lst1[n:]+lst1[:n]
     print("After circulating the values are:",lst2)
-
+```
 ## Output:
 ![circulate n variable](https://github.com/vinnush147/Circulate-the-values-of-N-variables/assets/147139234/831eeaf9-778d-4e40-ae84-e549ad005986)
 
